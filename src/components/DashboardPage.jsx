@@ -25,8 +25,8 @@ function DashboardPage() {
         </thead>
         <tbody>
           {documents.map((doc, index) => (
-            <tr key={index}>
-              <td>Customer {index + 1 }</td>
+            <tr key={index + 1}>
+              <td>Customer {index}</td>
               <td>{doc.type}</td>
               <td>{doc.status}</td>
               <td>
